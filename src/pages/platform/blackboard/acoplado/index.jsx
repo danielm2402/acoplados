@@ -103,6 +103,9 @@ export default function Index(props) {
                             <div className="title">
                                 <h4>Ecuación de movimiento:</h4>
                             </div>
+                            <div className="title">
+                                <h5>{props.response.type == 'PRIMERO' ? 'Primer modo de vibración':props.response.type == 'COMBINADO' ?'Modo de vibración Combinado':props.response.type == 'SEGUNDO'?'Segundo modo de vibración':''}</h5>
+                            </div>
                         </div>
                         {props.response.type == 'PRIMERO' ?
                             <div className="ecuation">

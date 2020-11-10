@@ -225,15 +225,13 @@ export function forzado(prmLongCuerda, prmGravedad, prmPosIni, prmVelIni, prmMas
 }
 
 export function acoplados(prmLongCuerda, prmGravedad, prmPosIni, prmVelIni, prmMasa, prmPosBlock, prmConstElastic) {
-   
-    const a = ((3 * prmConstElastic) / (2 * prmMasa)) + (prmGravedad / prmLongCuerda)
-    const b = Math.sqrt((Math.pow((5 * prmConstElastic), 2) / Math.pow(prmMasa, 2)) - ((2 * prmGravedad * prmConstElastic) / (prmLongCuerda * prmMasa)))
 
-    const W1_2 = a + ((1 / 2) * b)
-    const W1 = Math.sqrt(W1_2)
+    const a = ((3 * prmConstElastic) / (2 * prmMasa)) + (prmGravedad / (2 * prmLongCuerda))
+    const b = Math.sqrt(((5 * Math.pow(prmConstElastic, 2)) / Math.pow(prmMasa, 2)) - ((2 * prmConstElastic * prmGravedad) / (prmLongCuerda * prmMasa)) + (Math.pow(prmGravedad, 2) / Math.pow(prmLongCuerda, 2)))
+    const c = b / 2
 
-    const W2_2 = a - ((1 / 2) * b)
-    const W2 = Math.sqrt(W2_2)
+    const W1 = Math.sqrt(a + c)
+    const W2 = Math.sqrt(a - c)
 
     let a_2 = 0
     let a_1 = 0
@@ -257,17 +255,17 @@ export function acoplados(prmLongCuerda, prmGravedad, prmPosIni, prmVelIni, prmM
         a_2 = degrees_to_radians(prmPosBlock / 2);
 
     }
-     console.log('ACOPLADOS')
+    console.log('ACOPLADOS')
     console.log(a_1)
-    console.log(a_2) 
+    console.log(a_2)
     console.log(W1)
-    console.log(W2) 
-    console.log(type) 
+    console.log(W2)
+    console.log(type)
     return {
-        W1: isNumber(W1)? W1:0, //Frecuencias
-        W2:isNumber(W2)? W2:0,  // Frecuencias
-        a_1: isNumber(a_1)? a_1:0, //amplitudes
-        a_2: isNumber(a_2)? a_2:0,//amplitudes
+        W1: isNumber(W1) ? W1 : 0, //Frecuencias
+        W2: isNumber(W2) ? W2 : 0,  // Frecuencias
+        a_1: isNumber(a_1) ? a_1 : 0, //amplitudes
+        a_2: isNumber(a_2) ? a_2 : 0,//amplitudes
         type
     }
 }
@@ -276,7 +274,6 @@ function degrees_to_radians(degrees) {
     return degrees * (pi / 180);
 }
 
-var isNumber = function isNumber(value) 
-{
-   return typeof value === 'number' && isFinite(value);
+var isNumber = function isNumber(value) {
+    return typeof value === 'number' && isFinite(value);
 }
