@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "651241848e6fc31b74ba215f1da8077b",
+    "revision": "5a376e2c2102e1c75d523eae520bc8ed",
     "url": "/acoplados/index.html"
   },
   {
-    "revision": "39fdd46bedc490a37311",
-    "url": "/acoplados/static/css/main.8216a368.chunk.css"
+    "revision": "8a540d03056647804faa",
+    "url": "/acoplados/static/css/main.8ace14cd.chunk.css"
   },
   {
-    "revision": "4f066c990f95eeed9f20",
-    "url": "/acoplados/static/js/2.e12de0bd.chunk.js"
+    "revision": "683fa434e13a46560009",
+    "url": "/acoplados/static/js/2.d3adf296.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/acoplados/static/js/2.e12de0bd.chunk.js.LICENSE.txt"
+    "revision": "d466ab9648f013dea081956fc7c904f3",
+    "url": "/acoplados/static/js/2.d3adf296.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39fdd46bedc490a37311",
-    "url": "/acoplados/static/js/main.9a4826b9.chunk.js"
+    "revision": "8a540d03056647804faa",
+    "url": "/acoplados/static/js/main.47765a96.chunk.js"
   },
   {
     "revision": "cb936091bddee72240ce",
