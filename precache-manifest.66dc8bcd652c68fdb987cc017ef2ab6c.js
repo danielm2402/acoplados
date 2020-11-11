@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c2a2b62cb839187a23c3d68e4e19fe0",
+    "revision": "14de63d5357f7a0eafa78f45b1726041",
     "url": "/danielm2402/acoplados/index.html"
   },
   {
-    "revision": "3b3842fd1aa12aac5d21",
+    "revision": "656c64fc85202a980ab9",
     "url": "/danielm2402/acoplados/static/css/main.ad601555.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/danielm2402/acoplados/static/js/2.6e8c8f74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b3842fd1aa12aac5d21",
-    "url": "/danielm2402/acoplados/static/js/main.e1162edc.chunk.js"
+    "revision": "656c64fc85202a980ab9",
+    "url": "/danielm2402/acoplados/static/js/main.2b22cb12.chunk.js"
   },
   {
     "revision": "6bb5be0fd1c220fb4067",
