@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/danielm2402/acoplados/static/css/main.ad601555.chunk.css",
-    "main.js": "/danielm2402/acoplados/static/js/main.2b22cb12.chunk.js",
-    "main.js.map": "/danielm2402/acoplados/static/js/main.2b22cb12.chunk.js.map",
+    "main.css": "/danielm2402/acoplados/static/css/main.f39665fd.chunk.css",
+    "main.js": "/danielm2402/acoplados/static/js/main.b4207b64.chunk.js",
+    "main.js.map": "/danielm2402/acoplados/static/js/main.b4207b64.chunk.js.map",
     "runtime-main.js": "/danielm2402/acoplados/static/js/runtime-main.25c16346.js",
     "runtime-main.js.map": "/danielm2402/acoplados/static/js/runtime-main.25c16346.js.map",
-    "static/js/2.6e8c8f74.chunk.js": "/danielm2402/acoplados/static/js/2.6e8c8f74.chunk.js",
-    "static/js/2.6e8c8f74.chunk.js.map": "/danielm2402/acoplados/static/js/2.6e8c8f74.chunk.js.map",
+    "static/js/2.59f58131.chunk.js": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js",
+    "static/js/2.59f58131.chunk.js.map": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js.map",
     "index.html": "/danielm2402/acoplados/index.html",
-    "precache-manifest.66dc8bcd652c68fdb987cc017ef2ab6c.js": "/danielm2402/acoplados/precache-manifest.66dc8bcd652c68fdb987cc017ef2ab6c.js",
+    "precache-manifest.4d23290ecbab1e76ef47e60c06fc80e0.js": "/danielm2402/acoplados/precache-manifest.4d23290ecbab1e76ef47e60c06fc80e0.js",
     "service-worker.js": "/danielm2402/acoplados/service-worker.js",
-    "static/css/main.ad601555.chunk.css.map": "/danielm2402/acoplados/static/css/main.ad601555.chunk.css.map",
-    "static/js/2.6e8c8f74.chunk.js.LICENSE.txt": "/danielm2402/acoplados/static/js/2.6e8c8f74.chunk.js.LICENSE.txt",
+    "static/css/main.f39665fd.chunk.css.map": "/danielm2402/acoplados/static/css/main.f39665fd.chunk.css.map",
+    "static/js/2.59f58131.chunk.js.LICENSE.txt": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js.LICENSE.txt",
     "static/media/Platform.css": "/danielm2402/acoplados/static/media/bg1.e46a7579.jpg",
     "static/media/gif-pendulum.gif": "/danielm2402/acoplados/static/media/gif-pendulum.46c90860.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.25c16346.js",
-    "static/js/2.6e8c8f74.chunk.js",
-    "static/css/main.ad601555.chunk.css",
-    "static/js/main.2b22cb12.chunk.js"
+    "static/js/2.59f58131.chunk.js",
+    "static/css/main.f39665fd.chunk.css",
+    "static/js/main.b4207b64.chunk.js"
   ]
 }
