@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/danielm2402/acoplados/static/css/main.f39665fd.chunk.css",
-    "main.js": "/danielm2402/acoplados/static/js/main.b4207b64.chunk.js",
-    "main.js.map": "/danielm2402/acoplados/static/js/main.b4207b64.chunk.js.map",
-    "runtime-main.js": "/danielm2402/acoplados/static/js/runtime-main.25c16346.js",
-    "runtime-main.js.map": "/danielm2402/acoplados/static/js/runtime-main.25c16346.js.map",
-    "static/js/2.59f58131.chunk.js": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js",
-    "static/js/2.59f58131.chunk.js.map": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js.map",
-    "index.html": "/danielm2402/acoplados/index.html",
-    "precache-manifest.4d23290ecbab1e76ef47e60c06fc80e0.js": "/danielm2402/acoplados/precache-manifest.4d23290ecbab1e76ef47e60c06fc80e0.js",
-    "service-worker.js": "/danielm2402/acoplados/service-worker.js",
-    "static/css/main.f39665fd.chunk.css.map": "/danielm2402/acoplados/static/css/main.f39665fd.chunk.css.map",
-    "static/js/2.59f58131.chunk.js.LICENSE.txt": "/danielm2402/acoplados/static/js/2.59f58131.chunk.js.LICENSE.txt",
-    "static/media/Platform.css": "/danielm2402/acoplados/static/media/bg1.e46a7579.jpg",
-    "static/media/gif-pendulum.gif": "/danielm2402/acoplados/static/media/gif-pendulum.46c90860.gif"
+    "main.css": "/acoplados/static/css/main.8216a368.chunk.css",
+    "main.js": "/acoplados/static/js/main.9a4826b9.chunk.js",
+    "main.js.map": "/acoplados/static/js/main.9a4826b9.chunk.js.map",
+    "runtime-main.js": "/acoplados/static/js/runtime-main.1d4c8dba.js",
+    "runtime-main.js.map": "/acoplados/static/js/runtime-main.1d4c8dba.js.map",
+    "static/js/2.e12de0bd.chunk.js": "/acoplados/static/js/2.e12de0bd.chunk.js",
+    "static/js/2.e12de0bd.chunk.js.map": "/acoplados/static/js/2.e12de0bd.chunk.js.map",
+    "index.html": "/acoplados/index.html",
+    "precache-manifest.fa5887693e6649ca769fdb20c3aa6d0c.js": "/acoplados/precache-manifest.fa5887693e6649ca769fdb20c3aa6d0c.js",
+    "service-worker.js": "/acoplados/service-worker.js",
+    "static/css/main.8216a368.chunk.css.map": "/acoplados/static/css/main.8216a368.chunk.css.map",
+    "static/js/2.e12de0bd.chunk.js.LICENSE.txt": "/acoplados/static/js/2.e12de0bd.chunk.js.LICENSE.txt",
+    "static/media/Platform.css": "/acoplados/static/media/bg1.e46a7579.jpg",
+    "static/media/gif-pendulum.gif": "/acoplados/static/media/gif-pendulum.46c90860.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.25c16346.js",
-    "static/js/2.59f58131.chunk.js",
-    "static/css/main.f39665fd.chunk.css",
-    "static/js/main.b4207b64.chunk.js"
+    "static/js/runtime-main.1d4c8dba.js",
+    "static/js/2.e12de0bd.chunk.js",
+    "static/css/main.8216a368.chunk.css",
+    "static/js/main.9a4826b9.chunk.js"
   ]
 }
